@@ -150,7 +150,7 @@ const SERVICE_GROUPS = [
 
 const ServicesSection = ({ id }) => {
   return (
-    <div id={id} className="py-16" style={{ backgroundColor: '#D7D6C2' }}> {/* Background color changed to #D7D6C2 */}
+    <div id={id} className="py-16" style={{ backgroundColor: '#D3D3D3' }}> {/* Background color changed to #D7D6C2 */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  
         <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">Our Services</h2> {/* Text changed to gray-900 */}

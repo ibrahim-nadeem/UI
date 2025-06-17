@@ -7,7 +7,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/f
 const Footer = () => {
     return (
  
-        <footer style={{ backgroundColor: '#D7D6C2' }} className="py-10 px-4 sm:px-6 lg:px-8">
+        <footer style={{ backgroundColor: '#D3D3D3' }} className="py-10 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
  
                 <div className="col-span-1 md:col-span-1">

@@ -36,7 +36,7 @@ const Navbar = () => {
         <nav className={`fixed top-0 left-0 w-full flex justify-between items-center px-8 shadow-md z-50 /* py-1 hata diya gaya hai */
                        text-black  /* Text color is always black */
                        transition-colors duration-300`}
-                       style={{ backgroundColor: scrolled ? 'white' : '#D7D6C2' }}>
+                       style={{ backgroundColor: scrolled ? 'white' : '#D3D3D3' }}>
  
             <div className="flex items-center">
                 <img 
