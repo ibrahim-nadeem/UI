@@ -1,5 +1,7 @@
  
 import React, { useState, useEffect } from 'react';
+import ContactForm from '../../pages/contactus';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
  
@@ -87,14 +89,14 @@ const Navbar = () => {
                     <span className="relative z-10">Our Services</span>
                     <span className="absolute bottom-0 left-0 h-0.5 w-full bg-current transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
                 </a>
-                <a
-                    href="#contact"
+                <Link
+                    to="/contact"
                     className={`relative group block py-2 px-4 text-black /* Text color is always black */
                                transition-colors duration-300 overflow-hidden`}
                 >
                     <span className="relative z-10">Contact Us</span>
                     <span className="absolute bottom-0 left-0 h-0.5 w-full bg-current transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-                </a>
+                </Link>
             </div>
 
       
@@ -121,13 +123,13 @@ const Navbar = () => {
                     >
                         Our Services
                     </a>
-                    <a
-                        href="#contact"
+                    <Link
+                        to="/contact"
                         onClick={() => setIsMenuOpen(false)}  
                         className="w-full text-center px-4 py-2 text-black hover:bg-gray-100 transition-colors duration-300"
                     >
                         Contact Us
-                    </a>
+                    </Link>
                 </div>
             )}
         </nav>
