@@ -8,10 +8,7 @@ import ContactForm from './pages/contactus';
 
 const App = () => {
   return (
-<<<<<<< HEAD
-=======
-    
->>>>>>> 61b773b (initialize)
+
     <Routes>
       <Route path="/contact" element={<ContactForm />} />
       <Route path="/" element={<Homepage />} />
