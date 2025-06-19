@@ -41,7 +41,7 @@
  
 //             <div className="flex items-center">
 //                 <img 
-//                     src="public/images/Untitled design (3).png"  
+//                     src="public/UI/images/Untitled design (3).png"  
 //                     alt="GigaSphere Logo"
                   
 //                     className="h-20 w-auto object-contain rounded-full shadow-md border border-gray-300" 
@@ -55,7 +55,7 @@
  
 //              <div className="flex items-center">
 //         <img 
-//             src="/public/images/GS.jpg"  
+//             src="/public/UI/images/GS.jpg"  
 //             alt="GigaSphere Logo"
 //             className="h-12 w-auto object-contain rounded-full shadow-md border border-gray-300" /* Logo height reduced to h-12 (3rem) */
 //         />
@@ -199,7 +199,7 @@ const Navbar = () => {
             {/* Logo */}
             <div className="flex items-center">
                 <img
-                    src="/images/GS.jpg" // Remove /public in src path
+                    src="/UI/images/GS.jpg" // Remove /public in src path
                     alt="GigaSphere Logo"
                     className="h-12 w-auto object-contain rounded-full shadow-md border border-gray-300"
                 />

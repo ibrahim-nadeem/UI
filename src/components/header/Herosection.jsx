@@ -7,7 +7,7 @@
 //     <div className="relative min-h-screen flex items-center justify-start p-4 overflow-hidden">
        
 //       <img
-//         src="public/images/Pasted image.png" 
+//         src="public/UI/images/Pasted image.png" 
 //         alt="GigaSphere Solutions"
 //         className="absolute inset-0 w-full h-full object-cover object-top z-10 border-2"
 //       />
@@ -51,7 +51,7 @@ const HeroSection = () => {
     <div className="relative min-h-screen flex items-center justify-start p-4 overflow-hidden">
       {/* Background Image */}
       <img
-        src="/images/Pasted image.png" // Correct path — no need for "public"
+        src="/UI/images/Pasted image.png" // Correct path — no need for "public"
         alt="GigaSphere Solutions"
         className="absolute inset-0 w-full h-full object-cover object-top z-10 border-2"
       />

@@ -14,7 +14,7 @@
      
 //           <div className="w-full md:w-1/2">
 //             <img 
-//               src="public/images/office.png"  
+//               src="public/UI/images/office.png"  
 //               alt="GigaSphere Solutions Team"
 //               className="rounded-lg shadow-md w-full h-auto"
 //             />
@@ -135,7 +135,7 @@
 // //             <motion.img 
 // //               whileHover={{ scale: 1.03 }}
 // //               transition={{ type: 'spring', stiffness: 300 }}
-// //               src="/images/office.png"
+// //               src="/UI/images/office.png"
 // //               alt="GigaSphere Solutions Team"
 // //               className="relative rounded-xl shadow-xl w-full h-auto border-8 border-white"
 // //             />
@@ -338,7 +338,7 @@
 //             <motion.img 
 //               whileHover={{ scale: 1.03 }}
 //               transition={{ type: 'spring', stiffness: 300 }}
-//               src="/images/office.png"
+//               src="/UI/images/office.png"
 //               alt="GigaSphere Solutions Team"
 //               className="relative rounded-xl shadow-xl w-full h-full object-cover border-8 border-white"
 //               style={{ minHeight: '400px' }}
@@ -549,7 +549,7 @@ const AboutUs = ({ id }) => {
             <motion.img
               whileHover={{ scale: 1.03 }}
               transition={{ type: 'spring', stiffness: 300 }}
-              src="/images/office.png"
+              src="/UI/images/office.png"
               alt="GigaSphere Solutions Team"
               className="relative rounded-xl shadow-xl w-full h-full object-cover border-8 border-white"
               style={{ minHeight: '400px' }}
