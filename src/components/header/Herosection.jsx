@@ -23,7 +23,11 @@ const HeroSection = () => {
             Get up and running quickly with our expert consulting services.
           </p>
           <a
+<<<<<<< HEAD
             href="#contact"
+=======
+            href="/contact"
+>>>>>>> 61b773b (initialize)
             className="inline-block bg-white text-black px-5 py-2 rounded-lg font-medium transition duration-300 hover:bg-gray-200" // Slightly smaller padding
           >
             Contact Us

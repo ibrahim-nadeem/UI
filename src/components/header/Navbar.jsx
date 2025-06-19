@@ -33,6 +33,7 @@ const Navbar = () => {
     }, []);  
 
     return (
+<<<<<<< HEAD
         <nav className={`fixed top-0 left-0 w-full flex justify-between items-center px-8 shadow-md z-50 /* py-1 hata diya gaya hai */
                        text-black  /* Text color is always black */
                        transition-colors duration-300`}
@@ -46,6 +47,20 @@ const Navbar = () => {
                     className="h-20 w-auto object-contain rounded-full shadow-md border border-gray-300" 
                 />
             </div>
+=======
+        <nav className={`fixed top-0 left-0 w-full flex justify-between items-center px-8 shadow-md z-50 h-14 /* Reduced height to h-14 (3.5rem) */
+               text-black  /* Text color is always black */
+               transition-colors duration-300`}
+               style={{ backgroundColor: scrolled ? 'white' : '#D3D3D3' }}>
+ 
+             <div className="flex items-center">
+        <img 
+            src="/public/images/GS.jpg"  
+            alt="GigaSphere Logo"
+            className="h-12 w-auto object-contain rounded-full shadow-md border border-gray-300" /* Logo height reduced to h-12 (3rem) */
+        />
+    </div>
+>>>>>>> 61b773b (initialize)
 
         
             <div className="md:hidden">
@@ -64,7 +79,11 @@ const Navbar = () => {
  
             <div className="space-x-4 hidden md:flex">
                 <a
+<<<<<<< HEAD
                     href="#"
+=======
+                    href="/"
+>>>>>>> 61b773b (initialize)
                    
                     className={`relative group block py-2 px-4 text-black /* Text color is always black */
                                transition-colors duration-300 overflow-hidden`}
@@ -103,7 +122,11 @@ const Navbar = () => {
             {isMenuOpen && (
                 <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg py-4 flex flex-col items-center space-y-4">
                     <a
+<<<<<<< HEAD
                         href="#"
+=======
+                        href="/"
+>>>>>>> 61b773b (initialize)
                         onClick={() => setIsMenuOpen(false)}  
                         className="w-full text-center px-4 py-2 text-black hover:bg-gray-100 transition-colors duration-300"
                     >
@@ -137,3 +160,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 61b773b (initialize)
