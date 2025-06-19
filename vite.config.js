@@ -4,8 +4,7 @@ import { defineConfig } from 'vite'
 
 
  
-export default defineConfig({
-   
-    plugins: [react()],
-  base: '/UI',
-})
+export default defineConfig(({ mode }) => ({
+  plugins: [react()],
+  base: mode === 'production' ? '/UI/' : '/',
+}))
